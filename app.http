@@ -1,0 +1,10 @@
+###
+GET http://localhost:3000/states/
+Content-Type: application/json
+
+###
+GET http://localhost:3000/states/5/
+Content-Type: application/json
+###
+GET http://localhost:3000/states/5/stats/
+Content-Type: application/json
